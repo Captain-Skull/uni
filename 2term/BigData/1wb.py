@@ -1,5 +1,5 @@
 #1.3
-
+#
 # x = 5 >= 2
 # A = {1, 3, 7, 8}
 # B = { 2, 4, 5, 10, 'apple' }
@@ -43,13 +43,13 @@
 
 
 # 3.3.3
-
+#
 # x = [i for i in range(2, 16)]
 #
 # print(x)
 
 # 3.3.4
-
+#
 # for i in range(106, 5, -25):
 #     print(i)
 
@@ -140,25 +140,25 @@
 # print("Все акции показали рост. Акции Alphabet показли самый большой рост в процентах. Акции Microsoft показали наибольший рост в долларах. Apple первые полгода стагнировали")
 
 # 4.3.5
-# import math
-#
-# x = int(input("first number: "))
-# operation = input("input opertaion (`+`, `-`, `*`, `/`, `exp`, `sin`, `cos`, `pow`): ")
-# y = int(input("second number: "))
-#
-# if operation == "+":
-#     print(x + y)
-# if operation == "-":
-#     print(x - y)
-# if operation == "*":
-#     print(x * y)
-# if operation == "/":
-#     print(x / y)
-# if operation == "exp":
-#     print(math.pow(math.e, x+y))
-# if operation == "sin":
-#     print(math.sin(x+y))
-# if operation == "cos":
-#     print(math.cos(x+y))
-# if operation == "pow":
-#     print(math.pow(x, y))
+import math
+
+x = int(input("first number: "))
+operation = input("input opertaion (`+`, `-`, `*`, `/`, `exp`, `sin`, `cos`, `pow`): ")
+y = int(input("second number: "))
+
+if operation == "+":
+    print(x + y)
+if operation == "-":
+    print(x - y)
+if operation == "*":
+    print(x * y)
+if operation == "/":
+    print(x / y)
+if operation == "exp":
+    print(math.pow(math.e, x+y))
+if operation == "sin":
+    print(math.sin(x+y))
+if operation == "cos":
+    print(math.cos(x+y))
+if operation == "pow":
+    print(math.pow(x, y))
