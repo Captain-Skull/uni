@@ -2,7 +2,6 @@ from matplotlib import pyplot as plt
 from pandas import Series
 import numpy as np
 import seaborn as sns
-from mpl_toolkits.mplot3d import Axes3D
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
@@ -84,8 +83,6 @@ def task231():
     print(f"accuracy: {accuracy_score(y_test, y_pred):.3}")
     plt.show()
 
-task231()
-
 # Определите набор признаков человека, по аналогии из РТ 1, – например, цвет глаз и конвертируйте его в матрицу признаков.
 def task332():
     eyeColors = ['red', 'green', 'blue', 'yellow', 'magenta', 'cyan', 'brown', 'purple', 'grey', 'silver', 'gold', 'red', 'blue']
@@ -101,4 +98,3 @@ def task332():
     print("\nМатрица признаков:")
     print(feautres)
     print(f"\nНазвания признаков: {dictvectorizer.get_feature_names_out()}")
-

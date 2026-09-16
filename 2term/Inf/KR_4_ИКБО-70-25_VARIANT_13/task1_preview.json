@@ -1,0 +1,112 @@
+[
+  {
+    "client_id": "CLI-13-01-0001",
+    "age_group": "18-25",
+    "visits_month": "18",
+    "trainer_hours": "18.83",
+    "progress_score": "85.26",
+    "subscription_months": "10",
+    "churn_flag": "0",
+    "region": "Санкт-Петербург",
+    "operator_id": "op_12"
+  },
+  {
+    "client_id": "CLI-13-01-0002",
+    "age_group": "36-45",
+    "visits_month": "22",
+    "trainer_hours": "22.96",
+    "progress_score": "76.55",
+    "subscription_months": "19",
+    "churn_flag": "0",
+    "region": "ЦФО",
+    "operator_id": "op_02"
+  },
+  {
+    "client_id": "CLI-13-01-0003",
+    "age_group": "18-25",
+    "visits_month": "8",
+    "trainer_hours": "7.4",
+    "progress_score": "12.22",
+    "subscription_months": "21",
+    "churn_flag": "0",
+    "region": "ЦФО",
+    "operator_id": "op_03"
+  },
+  {
+    "client_id": "CLI-13-01-0004",
+    "age_group": "46-60",
+    "visits_month": "16",
+    "trainer_hours": "23.87",
+    "progress_score": "52.49",
+    "subscription_months": "11",
+    "churn_flag": "1",
+    "region": "Москва",
+    "operator_id": "op_04"
+  },
+  {
+    "client_id": "CLI-13-01-0005",
+    "age_group": "36-45",
+    "visits_month": "2",
+    "trainer_hours": "5.84",
+    "progress_score": "42.25",
+    "subscription_months": "9",
+    "churn_flag": "1",
+    "region": "ЦФО",
+    "operator_id": "op_08"
+  },
+  {
+    "client_id": "CLI-13-01-0006",
+    "age_group": "36-45",
+    "visits_month": "15",
+    "trainer_hours": "15.45",
+    "progress_score": "42.05",
+    "subscription_months": "27",
+    "churn_flag": "0",
+    "region": "Санкт-Петербург",
+    "operator_id": "op_05"
+  },
+  {
+    "client_id": "CLI-13-01-0007",
+    "age_group": "46-60",
+    "visits_month": "26",
+    "trainer_hours": "22.32",
+    "progress_score": "21.01",
+    "subscription_months": "10",
+    "churn_flag": "0",
+    "region": "региональный контур",
+    "operator_id": "op_10"
+  },
+  {
+    "client_id": "CLI-13-01-0008",
+    "age_group": "36-45",
+    "visits_month": "18",
+    "trainer_hours": "17.84",
+    "progress_score": "28.89",
+    "subscription_months": "34",
+    "churn_flag": "0",
+    "region": "Санкт-Петербург",
+    "operator_id": "op_04"
+  },
+  {
+    "client_id": "CLI-13-01-0008",
+    "age_group": "36-45",
+    "visits_month": "5",
+    "trainer_hours": "9.93",
+    "progress_score": "16.12",
+    "subscription_months": "32",
+    "churn_flag": "0",
+    "region": "региональный контур",
+    "operator_id": "op_06"
+  },
+  {
+    "client_id": "CLI-13-01-0010",
+    "age_group": "46-60",
+    "visits_month": "29",
+    "trainer_hours": "1.95",
+    "progress_score": "17.76",
+    "subscription_months": "31",
+    "churn_flag": "0",
+    "region": "Москва",
+    "operator_id": "op_10"
+  }
+]

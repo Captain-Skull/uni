@@ -1,0 +1,88 @@
+Файл: task_1.csv
+Количество строк: 76
+Количество полей: 9
+
+Первые 3 наблюдения:
+[
+  {
+    "client_id": "CLI-13-01-0001",
+    "age_group": "18-25",
+    "visits_month": "18",
+    "trainer_hours": "18.83",
+    "progress_score": "85.26",
+    "subscription_months": "10",
+    "churn_flag": "0",
+    "region": "Санкт-Петербург",
+    "operator_id": "op_12"
+  },
+  {
+    "client_id": "CLI-13-01-0002",
+    "age_group": "36-45",
+    "visits_month": "22",
+    "trainer_hours": "22.96",
+    "progress_score": "76.55",
+    "subscription_months": "19",
+    "churn_flag": "0",
+    "region": "ЦФО",
+    "operator_id": "op_02"
+  },
+  {
+    "client_id": "CLI-13-01-0003",
+    "age_group": "18-25",
+    "visits_month": "8",
+    "trainer_hours": "7.4",
+    "progress_score": "12.22",
+    "subscription_months": "21",
+    "churn_flag": "0",
+    "region": "ЦФО",
+    "operator_id": "op_03"
+  }
+]
+
+Последние 3 наблюдения:
+[
+  {
+    "client_id": "CLI-13-01-0074",
+    "age_group": "46-60",
+    "visits_month": "18",
+    "trainer_hours": "6.81",
+    "progress_score": "45.66",
+    "subscription_months": "17",
+    "churn_flag": "0",
+    "region": "региональный контур",
+    "operator_id": "op_10"
+  },
+  {
+    "client_id": "CLI-13-01-0075",
+    "age_group": "18-25",
+    "visits_month": "6",
+    "trainer_hours": "9.4",
+    "progress_score": "97.9",
+    "subscription_months": "23",
+    "churn_flag": "0",
+    "region": "СЗФО",
+    "operator_id": "op_04"
+  },
+  {
+    "client_id": "CLI-13-01-0076",
+    "age_group": "26-35",
+    "visits_month": "4",
+    "trainer_hours": "15.46 ед.",
+    "progress_score": "96.58",
+    "subscription_months": "24",
+    "churn_flag": "1",
+    "region": "региональный контур",
+    "operator_id": "op_02"
+  }
+]
+
+Автоматическая классификация полей:
+- client_id: str / identification — Идентификатор записи
+- age_group: str / categorical — Возрастная группа клиента
+- visits_month: int / numeric — Число посещений в месяц
+- trainer_hours: float / numeric — Часы работы с тренером
+- progress_score: float / numeric — Оценка прогресса клиента
+- subscription_months: int / numeric — Срок подписки в месяцах
+- churn_flag: int / logical — Логический признак оттока
+- region: str / categorical — Регион клиента
+- operator_id: str / identification — Идентификатор оператора

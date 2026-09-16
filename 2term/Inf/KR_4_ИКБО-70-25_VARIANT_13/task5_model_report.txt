@@ -1,0 +1,18 @@
+Метод: простое правило классификации по трём признакам.
+Правило: churn_flag=1, если progress_score >= 92.86; иначе churn_flag=1, если visits_month <= 21.5 и subscription_months <= 7.5; иначе churn_flag=0.
+Использовано строк после очистки: 87.
+Accuracy: 82.76%.
+Сильнее всего влияет progress_score: очень высокий прогресс переводит объект в класс оттока.
+Вторая ветка правила показывает, что низкая активность и короткая подписка тоже указывают на churn.
+
+Сравнение фактического и прогнозного класса (первые 10 строк):
+CLI-13-05-0001: факт=1, прогноз=0, visits=28, progress=78.58, subscription=15.
+CLI-13-05-0003: факт=1, прогноз=1, visits=6, progress=93.46, subscription=17.
+CLI-13-05-0004: факт=0, прогноз=0, visits=23, progress=19.54, subscription=30.
+CLI-13-05-0005: факт=1, прогноз=0, visits=20, progress=39.62, subscription=12.
+CLI-13-05-0006: факт=0, прогноз=0, visits=18, progress=43.49, subscription=34.
+CLI-13-05-0007: факт=1, прогноз=0, visits=17, progress=71.57, subscription=12.
+CLI-13-05-0008: факт=1, прогноз=1, visits=21, progress=49.02, subscription=4.
+CLI-13-05-0009: факт=0, прогноз=0, visits=27, progress=22.8, subscription=7.
+CLI-13-05-0010: факт=0, прогноз=0, visits=13, progress=19.59, subscription=20.
+CLI-13-05-0011: факт=0, прогноз=0, visits=11, progress=60.12, subscription=28.

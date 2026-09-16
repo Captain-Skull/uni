@@ -1,0 +1,10 @@
+﻿client_id,age_group,visits_month,trainer_hours,progress_score,subscription_months,churn_flag,validation_status,error_comment,region,rejection_reasons
+CLI-13-03-0008,26-35,24,3.02,85.32,32,1,warning,логическое расхождение,ЦФО,contradiction_high_progress_long_subscription
+CLI-13-03-0018,46-60,23,4.7,12.43,,0,warning,,СЗФО,missing_subscription_months
+CLI-13-03-0018,18-25,21,6.51,20.48,23,0,ok,логическое расхождение,СЗФО,duplicate_id
+CLI-13-03-0030,18-25,15,21.56 ед.,83.73,1229.0,1,unchecked,,Москва,iqr_outlier_subscription_months; contradiction_high_progress_long_subscription
+CLI-13-03-0035,26-35,28,18.92,нет данных,5,0,ok,проверить тип,региональный контур,missing_progress_score
+CLI-13-03-0051,36-45,29,-13.06,4.45,23,1,error,логическое расхождение,Москва,negative_trainer_hours; iqr_outlier_trainer_hours
+CLI-13-03-0054,46-60,24,15.76,99.76,27,1,error,нет значения,Москва,contradiction_high_progress_long_subscription
+CLI-13-03-0055,18-25,20,17.01,,14,0,ok,логическое расхождение,ЦФО,missing_progress_score
+CLI-13-03-0056,18-25,0,7.46,89.15,2,0,warning,логическое расхождение,Санкт-Петербург,contradiction_zero_visits_high_progress

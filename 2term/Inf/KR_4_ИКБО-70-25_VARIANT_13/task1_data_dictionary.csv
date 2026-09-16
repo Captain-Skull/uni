@@ -1,0 +1,10 @@
+﻿field_name,inferred_type,role,comment
+client_id,str,identification,Идентификатор записи
+age_group,str,categorical,Возрастная группа клиента
+visits_month,int,numeric,Число посещений в месяц
+trainer_hours,float,numeric,Часы работы с тренером
+progress_score,float,numeric,Оценка прогресса клиента
+subscription_months,int,numeric,Срок подписки в месяцах
+churn_flag,int,logical,Логический признак оттока
+region,str,categorical,Регион клиента
+operator_id,str,identification,Идентификатор оператора

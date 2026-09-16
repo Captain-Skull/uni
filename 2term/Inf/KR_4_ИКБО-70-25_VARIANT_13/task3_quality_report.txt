@@ -1,0 +1,15 @@
+Файл: task_3.csv
+Всего строк: 57
+Принято строк: 48
+Отклонено строк: 9
+Коэффициент пригодности данных: 84.21%
+
+Типы ошибок:
+- contradiction_high_progress_long_subscription: 3
+- missing_progress_score: 2
+- missing_subscription_months: 1
+- duplicate_id: 1
+- iqr_outlier_subscription_months: 1
+- negative_trainer_hours: 1
+- iqr_outlier_trainer_hours: 1
+- contradiction_zero_visits_high_progress: 1
