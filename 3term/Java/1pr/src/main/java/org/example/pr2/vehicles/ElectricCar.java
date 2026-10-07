@@ -1,0 +1,29 @@
+package org.example.pr2.vehicles;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class ElectricCar extends Car {
+    private int batteryCapacity;
+
+    public ElectricCar(String model, String license, String color, int year,
+                       String ownerName, int insuranceNumber, int batteryCapacity) {
+        super(model, license, color, year, ownerName, insuranceNumber, EngineType.ELECTRIC);
+        this.batteryCapacity = batteryCapacity;
+    }
+
+    public ElectricCar() {
+        this.engineType = EngineType.ELECTRIC;
+    }
+
+    @Override
+    public VehicleType vehicleType() {
+        return VehicleType.ELECTRIC_CAR;
+    }
+
+    public void showEngine() {
+        System.out.println("Тип двигателя: " + engineType);
+    }
+}
