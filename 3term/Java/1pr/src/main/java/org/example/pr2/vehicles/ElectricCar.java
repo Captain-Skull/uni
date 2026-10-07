@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ElectricCar extends Car {
+public class ElectricCar extends Car implements ElectricVehicle {
     private int batteryCapacity;
 
     public ElectricCar(String model, String license, String color, int year,
@@ -25,5 +25,15 @@ public class ElectricCar extends Car {
 
     public void showEngine() {
         System.out.println("Тип двигателя: " + engineType);
+    }
+
+    @Override
+    public int getBatteryCapacity() {
+        return this.batteryCapacity;
+    }
+
+    @Override
+    public void setBatteryCapacity(int batteryCapacity) {
+        this.batteryCapacity = batteryCapacity;
     }
 }
