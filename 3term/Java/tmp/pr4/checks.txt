@@ -1,0 +1,2 @@
+javac -Xlint:all: no warnings
+Console scenarios passed: 43
